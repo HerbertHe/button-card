@@ -2,6 +2,7 @@
     "compilerOptions": {
         "moduleResolution": "Node",
         "experimentalDecorators": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "types": ["node"]
     }
 }
