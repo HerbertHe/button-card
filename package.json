@@ -1,13 +1,14 @@
 {
     "name": "@herberthe/button-card-devkit",
     "type": "module",
-    "version": "1.0.0",
-    "description": "Button card package for development",
+    "version": "0.0.1",
+    "description": "Devkit for Home Assistant Custom button card development    ",
     "main": "dist/index.js",
-    "types": "dist/index.d.ts",
     "private": false,
     "files": [
-        "dist"
+        "dist",
+        "README.md",
+        "LICENSE"
     ],
     "scripts": {
         "dev": "tsup --watch",
@@ -18,9 +19,11 @@
         "url": "git+https://github.com/HerbertHe/button-card.git"
     },
     "keywords": [
-        "lovelace"
+        "lovelace",
+        "homeassistant",
+        "button-card"
     ],
-    "author": "HerbertHe",
+    "author": "HerbertHe <Herbert.He0229@gmail.com>",
     "contributors": [
         "kuuji",
         "Ian Richardson (https://github.com/iantrich)",
@@ -31,6 +34,10 @@
         "url": "https://github.com/HerbertHe/button-card/issues"
     },
     "homepage": "https://github.com/HerbertHe/button-card#readme",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "devDependencies": {
         "tsup": "^8.0.1",
         "typescript": "^5.3.3"
