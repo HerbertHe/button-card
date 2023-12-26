@@ -14,7 +14,7 @@
     "scripts": {
         "dev": "tsup --watch",
         "build": "tsup",
-        "publish": "pnpm build && git push && npm publish"
+        "push": "pnpm build && git push && npm publish"
     },
     "repository": {
         "type": "git",
